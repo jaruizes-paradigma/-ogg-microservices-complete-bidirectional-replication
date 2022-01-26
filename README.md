@@ -772,9 +772,9 @@ Para finalizar, pulsamos "Create" y nos aparecerá el extract:
 
 <br/>
 
-### Creando el data pump (o Path)
+### Creando el Path
 
-Una vez que hemos creado el extract vamos a crear el data pump. Los data pump o patos no se crean desde el Admin Server sino que tenemos ir al Distribution Service. Para ello, debemos ir a la URL: "http://<IP EC2>:9011/". Se abrirá una nueva consola web (mismo usuario y password).
+Una vez que hemos creado el extract vamos a crear el Path. Los "paths" son como los data pump en la versión Classic. No se crean desde el Admin Server sino que tenemos ir al Distribution Service. Para ello, debemos ir a la URL: "http://<IP EC2>:9011/". Se abrirá una nueva consola web (mismo usuario y password).
 
 Pulsamos el símbolo "+" para acceder al wizard de creación, empezando por la parte de path, donde tenemos que rellenar los siguientes datos:
 
@@ -860,9 +860,9 @@ Pulsamos "Create and Run" y nos aparecerá el nuevo extract junto al de carga in
 
 <br/>
 
-### Creando el data pump (o Path)
+### Creando el Path
 
-Una vez que hemos creado el extract primario, vamos a crear el data pump. Los data pump no se crean desde el Admin Server sino que tenemos ir al Distribution Service. Para ello, debemos ir a la URL: "http://<IP EC2>:9011/". Se abrirá una nueva consola web (mismo usuario y password).
+Una vez que hemos creado el extract primario, vamos a crear el Path. No se crean desde el Admin Server sino que tenemos ir al Distribution Service. Para ello, debemos ir a la URL: "http://<IP EC2>:9011/". Se abrirá una nueva consola web (mismo usuario y password).
 
 Pulsamos el símbolo "+" para acceder al wizard de creación, empezando por la parte de path, donde tenemos que rellenar los siguientes datos:
 
@@ -882,7 +882,7 @@ Aunque no sería necesario, vamos a añadir reglas (apartado Rule-set Configurat
 
 
 
-Pulsamos "Add" y "Create". Por último, en la página del formulario, pulsamos "Create and Run" para crear realmente el data pump:
+Pulsamos "Add" y "Create". Por último, en la página del formulario, pulsamos "Create and Run" para crear realmente el Path:
 
 ![pcdcora_start](readme/img/pcdcora_start.jpg)
 
@@ -1037,7 +1037,7 @@ Pulsamos "Create and Run". Nos aparecerá en la lista de extracts;
 
 <br/>
 
-#### Creando el data pump o Path
+#### Creando el Path
 
 Una vez que tenemos el extract, tenemos que configurar el path. Para ello, accedemos al **Distribution Service del deployment para Postgresql** y pulsamos en el símbolo "+":
 
